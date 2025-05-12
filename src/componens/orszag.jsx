@@ -20,7 +20,7 @@ const Countries = () => {
     country.name?.common.toLowerCase().includes(searchTerm)
   );
 
-  return ( 
+  return (
     <div>
       <h1 className="title">Országok és zászlóik</h1>
       <div className="search-container">
