@@ -41,9 +41,9 @@ const Countries = () => {
             <h3>{country.name?.common}</h3>
             <p><strong>Főváros:</strong> {country.capital?.[0]}</p>
             <p><strong>Régió:</strong> {country.region}</p>
-          </div>
+          </div> 
         ))}
-      </div>
+      </div> 
     </div>
   );
 };
